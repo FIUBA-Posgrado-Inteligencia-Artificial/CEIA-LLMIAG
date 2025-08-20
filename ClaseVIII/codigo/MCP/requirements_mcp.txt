@@ -1,0 +1,17 @@
+# Requisitos para el Servidor MCP Educativo
+# ==========================================
+
+# SDK oficial de MCP con soporte CLI
+mcp[cli]>=1.0.0
+
+# Para entornos de Jupyter/notebook (si se necesita)
+nest_asyncio>=1.5.0
+
+# Para identificar procesos que usan puertos (opcional pero recomendado)
+psutil>=5.9.0
+
+# Logging mejorado (opcional)
+colorlog>=6.0.0
+
+# Para desarrollo y debugging (opcional)
+uvicorn>=0.27.0
